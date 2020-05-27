@@ -1,0 +1,125 @@
+PODS:
+  - Alamofire (4.8.2)
+  - ApplicasterSDK (10.2.0):
+    - Alamofire (= 4.8.2)
+    - CocoaLumberjack/Swift (= 3.5.3)
+    - FBSDKCoreKit (= 5.2.3)
+    - FBSDKLoginKit (= 5.2.3)
+    - FBSDKShareKit (= 5.2.3)
+    - SSZipArchive (= 2.1.0)
+    - TTTAttributedLabel (= 2.1.0)
+    - TwitterKit (= 3.4.2)
+    - ZappAnalyticsPluginsSDK (~> 8.0.4)
+    - ZappGeneralPluginsSDK (~> 8.1.0)
+    - ZappLoginPluginsSDK (~> 8.0.1)
+    - ZappPlugins (~> 9.1.8)
+    - ZappPushPluginsSDK (~> 8.0.2)
+  - CleengLogin (2.0.10):
+    - CleengLogin/Core (= 2.0.10)
+  - CleengLogin/Core (2.0.10):
+    - ApplicasterSDK
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - SwiftyStoreKit (~> 0.15.0)
+    - ZappPlugins
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
+  - DigicelLoginPlugin (1.0.0):
+    - DigicelLoginPlugin/Core (= 1.0.0)
+  - DigicelLoginPlugin/Core (1.0.0):
+    - ApplicasterSDK
+    - CleengLogin (~> 2.0.0)
+    - ZappPlugins
+  - FacebookCore (0.9.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookLogin (0.9.0):
+    - FacebookCore (~> 0.9.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKLoginKit (~> 5.0)
+  - FBSDKCoreKit (5.2.3):
+    - FBSDKCoreKit/Basics (= 5.2.3)
+    - FBSDKCoreKit/Core (= 5.2.3)
+  - FBSDKCoreKit/Basics (5.2.3)
+  - FBSDKCoreKit/Core (5.2.3):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.2.3):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.2.3):
+    - FBSDKCoreKit (~> 5.0)
+  - SSZipArchive (2.1.0)
+  - SwiftyStoreKit (0.15.0)
+  - TTTAttributedLabel (2.1.0)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+  - ZappAnalyticsPluginsSDK (8.0.4):
+    - ZappPlugins
+  - ZappGeneralPluginsSDK (8.1.0):
+    - ZappPlugins
+  - ZappLoginPluginsSDK (8.0.1):
+    - Alamofire
+    - ZappPlugins
+  - ZappPlugins (9.1.9)
+  - ZappPushPluginsSDK (8.0.2):
+    - ZappPlugins
+
+DEPENDENCIES:
+  - CleengLogin
+  - DigicelLoginPlugin (from `DigicelLoginPlugin.podspec`)
+
+SPEC REPOS:
+  "git@github.com:applicaster/CocoaPods-Private.git":
+    - ZappAnalyticsPluginsSDK
+    - ZappGeneralPluginsSDK
+    - ZappLoginPluginsSDK
+    - ZappPushPluginsSDK
+  "git@github.com:applicaster/CocoaPods.git":
+    - ApplicasterSDK
+    - TTTAttributedLabel
+    - ZappPlugins
+  "git@github.com:applicaster/login-plugin-cleeng-ios.git":
+    - CleengLogin
+  https://cdn.cocoapods.org/:
+    - Alamofire
+    - CocoaLumberjack
+    - FacebookCore
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - SSZipArchive
+    - SwiftyStoreKit
+    - TwitterCore
+    - TwitterKit
+
+EXTERNAL SOURCES:
+  DigicelLoginPlugin:
+    :path: DigicelLoginPlugin.podspec
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  ApplicasterSDK: 0cb44806983b721ecab7bb558be6ba5ccf69dec3
+  CleengLogin: 6b7b4d1072311a62b43dfd8764e18c41a2f38736
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  DigicelLoginPlugin: dac698af739c72428e133297ef376e67c22cea2b
+  FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
+  FacebookLogin: 6cee9fd6e1fe976fe8f7eec199e27b28b14f5d63
+  FBSDKCoreKit: 5154c35d9058fd7dfa0445ba19e194c4b172fc32
+  FBSDKLoginKit: dc98b6bf12334f1a42f28d0457fffc9aa3d1eca5
+  FBSDKShareKit: 6f9c622f9a5d051f43f2dab6f753d5198422b89c
+  SSZipArchive: 1e8e53dcb11bca3ded4738958dc49fc467320a14
+  SwiftyStoreKit: 033d06b6f87955405d3f844a18a7687c2438592a
+  TTTAttributedLabel: f8c7f1dbc7b8f7168e23e8b4764dda2e3b74aae8
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+  ZappAnalyticsPluginsSDK: 6f8edcddc12ae4001098a3fa6fe87e6fe1a013bd
+  ZappGeneralPluginsSDK: 7e91f6030d9f1b81b4781e823b0197bfad351bde
+  ZappLoginPluginsSDK: d3205f72e2fa2ddb24d2ba240591f41fbb8644d8
+  ZappPlugins: 2bc8f25c9e28711ed5b8754cf1082e7cbc8748bb
+  ZappPushPluginsSDK: 2062e2487f3ac877c0ab1a807d1a7f8d357bd333
+
+PODFILE CHECKSUM: 2284b89b950e90855319fe3fe382988bd7d1d60e
+
+COCOAPODS: 1.7.5

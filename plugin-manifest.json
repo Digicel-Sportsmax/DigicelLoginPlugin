@@ -1,0 +1,192 @@
+{
+  "api": {
+    "class_name": "ZappDigicelLogin",
+    "modules": [
+      "DigicelLoginPlugin"
+    ],
+    "require_startup_execution": true
+  },
+  "dependency_repository_url": [
+    "https://github.com/Digicel-Sportsmax/DigicelLoginPlugin.git"
+  ],
+  "platform": "ios",
+  "author_name": "Mohieddine Zarif",
+  "author_email": "mohieddine.zarif@gotocme.com",
+  "manifest_version": "0.0.1",
+  "name": "[SportsMax]: DigicelLoginPlugin",
+  "description": "Integration with Digicel Authentication services",
+  "type": "login",
+  "screen": true,
+  "preload": true,
+  "identifier": "SMaxDigicelLoginPlugin",
+  "ui_builder_support": true,
+  "dependency_name": "DigicelLoginPlugin",
+  "dependency_version": "0.0.1",
+  "whitelisted_account_ids": [
+    "5af949534da8f300080050f9"
+  ],
+  "min_zapp_sdk": "13.0.0",
+  "deprecated_since_zapp_sdk": "",
+  "unsupported_since_zapp_sdk": "",
+  "supported_nav_items": [],
+  "react_native": false,
+  "custom_configuration_fields": [
+    {
+      "type": "uploader",
+      "key": "ios_assets_bundle"
+    },
+    {
+      "type": "text",
+      "key": "digicel_client_id",
+      "tooltip_text": "The Digicel Client id"
+    },
+    {
+      "type": "text",
+      "key": "digicel_scope",
+      "tooltip_text": "A list of permissions name separated byspace."
+    },
+    {
+      "type": "text",
+      "key": "digicel_secret",
+      "tooltip_text": "Digital secret key."
+    },
+    {
+      "type": "text",
+      "key": "digicel_login_url",
+      "tooltip_text": "Digital login url."
+    },
+    {
+      "type": "text",
+      "key": "Sportsmax_offer_id",
+      "tooltip_text": "Sportsmax offer id"
+    },
+    {
+      "type": "text",
+      "key": "digicel_user_access_auth_id",
+      "tooltip_text": "Digicel user access authorization id for user's type Premium."
+    },
+    {
+      "type": "text",
+      "key": "digicel_free_access_auth_id",
+      "tooltip_text": "Digicel free access authorization id for user's type Basic."
+    },
+    {
+      "type": "text",
+      "key": "digicel_base_url",
+      "tooltip_text": "digicel base url for api"
+    },
+    {
+      "type": "text",
+      "key": "digicel_logout_url",
+      "tooltip_text": "digicel logout url"
+    },
+    {
+      "type": "text",
+      "key": "digicel_subscription_url",
+      "tooltip_text": "digicel subscription item url"
+    },
+    {
+      "type": "checkbox",
+      "key": "logged_in_free_access",
+      "tooltip_text": "Flag to indicate if login only gets free access"
+    },
+    {
+      "type": "text",
+      "key": "already_login_error_message",
+      "tooltip_text": "already login error message"
+    },
+    {
+      "type": "text",
+      "key": "logout_successfully_message",
+      "tooltip_text": "logout successfully message"
+    },
+    {
+      "type": "text",
+      "key": "already_logout_error_message",
+      "tooltip_text": "already logout error message"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_title",
+      "tooltip_text": "digicel welcome screen title"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_title_size",
+      "tooltip_text": "digicel welcome screen size"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_title_color",
+      "tooltip_text": "digicel welcome screen color"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_title_font",
+      "tooltip_text": "digicel welcome screen font"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_second_title",
+      "tooltip_text": "digicel welcome screen title"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_second_title_color",
+      "tooltip_text": "digicel welcome screen second title color"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_description",
+      "tooltip_text": "digicel welcome screen description"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_description_size",
+      "tooltip_text": "digicel welcome screen description size"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_description_color",
+      "tooltip_text": "digicel welcome screen description color"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_description_font",
+      "tooltip_text": "digicel welcome screen description font"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_login_button_text",
+      "tooltip_text": "digicel welcome screen login button text"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_create_account_button_text",
+      "tooltip_text": "digicel welcome screen create account button text"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_button_text_size",
+      "tooltip_text": "digicel welcome screen button text size"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_button_text_color",
+      "tooltip_text": "digicel welcome screen button text color"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_button_text_font",
+      "tooltip_text": "digicel welcome screen button text font"
+    },
+    {
+      "type": "text",
+      "key": "digicel_welcome_screen_create_account_link",
+      "tooltip_text": "digicel welcome screen create account link"
+    }
+  ],
+  "targets": [
+    "mobile"
+  ]
+}
